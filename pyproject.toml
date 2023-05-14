@@ -7,7 +7,9 @@ readme = "README.md"
 packages = [{include = "python_particle_in_box_sumulation_fei_cf3121"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
+matplotlib = "^3.7.1"
+pyinstaller = "^5.11.0"
 
 
 [build-system]
