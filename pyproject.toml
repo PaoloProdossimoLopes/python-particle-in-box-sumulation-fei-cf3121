@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-particle-in-box-sumulation-fei-cf3121"
+version = "0.1.0"
+description = ""
+authors = ["Paolo Prodossimo Lopes <paolo.prodossimo.lopes@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_particle_in_box_sumulation_fei_cf3121"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
