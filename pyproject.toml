@@ -10,6 +10,7 @@ packages = [{include = "python_particle_in_box_sumulation_fei_cf3121"}]
 python = ">=3.11,<3.12"
 matplotlib = "^3.7.1"
 pyinstaller = "^5.11.0"
+numpy = "^1.24.3"
 
 
 [build-system]
