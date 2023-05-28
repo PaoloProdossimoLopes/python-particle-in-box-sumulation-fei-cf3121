@@ -21,3 +21,10 @@
 - [Poetry](https://python-poetry.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [Tkinter](https://docs.python.org/3/library/tkinter.html)
+
+## Alunos
+
+Paolo Prodossimo Lopes
+Felipe da Rocha Pinheiro
+Fernando Ferreira
+Gustavo Sesoko Lemos
