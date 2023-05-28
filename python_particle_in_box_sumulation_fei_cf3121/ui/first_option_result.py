@@ -1,15 +1,17 @@
 from tkinter import *
 
+from core.first import *
 
-def present_first_option_result(master):
+
+def present_first_option_result(master, L, ni, nf, EouP):
     main_window = Toplevel(master)
     main_window.title("Resultados")
 
-    a_response = 'resposta a'
-    b_response = 'resposta b'
-    c_response = 'resposta c'
-    d_response = 'resposta d'
-    e_response = 'resposta e'
+    a_response = get_wave_function(L, ni, nf, EouP)
+    b_response = get_energia_nivel_quantico(L, ni, nf, EouP)
+    c_response = get_c(L, ni, nf, EouP)
+    d_response = get_d(L, ni, nf, EouP)
+    e_response = get_e(L, ni, nf, EouP)
     f_response = 'resposta f'
 
     Label(main_window, text=f"A) Função de onda quântica no SI dos dois níveis: {a_response}").pack()

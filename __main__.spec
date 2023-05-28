@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['python_particle_in_box_sumulation_fei_cf3121\\__init__.py'],
+a = Analysis(['python_particle_in_box_sumulation_fei_cf3121\\__main__.py'],
              pathex=['B:\\www\\github\\python\\python-particle-in-box-sumulation-fei-cf3121'],
              binaries=[],
              datas=[],
@@ -21,7 +21,7 @@ exe = EXE(pyz,
           a.scripts,
           [],
           exclude_binaries=True,
-          name='__init__',
+          name='__main__',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
@@ -34,4 +34,4 @@ coll = COLLECT(exe,
                strip=False,
                upx=True,
                upx_exclude=[],
-               name='__init__')
+               name='__main__')

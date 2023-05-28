@@ -16,6 +16,10 @@
 4. Rode o comando `poetry install` ou `poetry shell` para instalar as dependencias
 5. Rode o projeto com o comando `poetry run python .\python_particle_in_box_sumulation_fei_cf3121` ou clicando no play existente no canto superior direito da IDE (caso tenha a extensão do python no VSCode e esteja no arquivo '__main__')
 
+## Gerando Executavel
+
+- rode o comando `pyinstaller .\python_particle_in_box_sumulation_fei_cf3121\__init__.py`
+
 ## Tecnologias
 
 - [Poetry](https://python-poetry.org/)
