@@ -26,7 +26,7 @@
 
 ## Alunos
 
-Paolo Prodossimo Lopes
-Felipe da Rocha Pinheiro
-Fernando Ferreira
-Gustavo Sesoko Lemos
+- Paolo Prodossimo Lopes
+- Felipe da Rocha Pinheiro
+- Fernando Ferreira
+- Gustavo Sesoko Lemos
