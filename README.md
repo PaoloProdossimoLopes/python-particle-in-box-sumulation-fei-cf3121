@@ -21,6 +21,8 @@
 - [Poetry](https://python-poetry.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [Tkinter](https://docs.python.org/3/library/tkinter.html)
+- [Pyinstaller](https://pyinstaller.org/en/stable/)
+- [Numpy](https://numpy.org/)
 
 ## Alunos
 
