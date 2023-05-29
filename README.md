@@ -18,7 +18,7 @@
 
 ## Gerando Executavel
 
-- rode o comando `pyinstaller .\python_particle_in_box_sumulation_fei_cf3121\__init__.py`
+- rode o comando `pyinstaller --onefile -w .\python_particle_in_box_sumulation_fei_cf3121\projeto.py`
 
 ## Tecnologias
 
