@@ -39,10 +39,10 @@ def present_first_option(master):
     b_entry.grid(column=1, row=6, padx=10, pady=10)
 
     def eletron_result_action_handler():
-        present_first_option_result(window, L=float(box_size_entry.get()), ni=float(initial_n_entry.get()), nf=float(final_n_entry.get()), EouP=int(1))
+        present_first_option_result(window, L=float(box_size_entry.get()), ni=float(initial_n_entry.get()), nf=float(final_n_entry.get()), EouP=int(1), a=float(a_entry.get()), b=float(b_entry.get()))
     
     def proton_result_action_handler():
-        present_first_option_result(window, L=float(box_size_entry.get()), ni=float(initial_n_entry.get()), nf=float(final_n_entry.get()), EouP=int(1))
+        present_first_option_result(window, L=float(box_size_entry.get()), ni=float(initial_n_entry.get()), nf=float(final_n_entry.get()), EouP=int(1), a=float(a_entry.get()), b=float(b_entry.get()))
 
     e_button = Button(window, text="Elétron", command=eletron_result_action_handler)
     e_button.grid(column=0, row=7, padx=0, pady=10)

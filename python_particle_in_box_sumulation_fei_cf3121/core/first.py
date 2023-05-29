@@ -48,7 +48,7 @@ def get_c(L, ni, nf, EouP):
   λf = (4.136E-15 * 3E8) / eAbs
   f = 3E8 / λf
   return (
-    '\nA energia do foton absorvido é: %f' % eAbs, 
+    'A energia do foton absorvido é: %f' % eAbs, 
     'O comprimento de onda desse foton é: %f' % λf,
     'A frequencia vale: %.2f' % f
   )
@@ -91,4 +91,21 @@ def get_e(L, ni, nf, EouP):
     'λi: %d' % (λpi),
     'λf: %d' % (λpf)
   )
-  
+
+from scipy.integrate import quad
+
+
+def probability(a, b, n, L):
+    theta_i = n * math.pi * a / L
+    theta_f = n * math.pi * b / L
+
+    integrand = lambda theta: (2 * n * math.pi / L) * math.sin(theta)**2
+
+    result, _ = quad(integrand, theta_i, theta_f)
+    return result
+
+def get_f(L, ni, nf, EouP, a, b):
+  return (
+    'probabilidade inicial (percent.): %.2f' % (probability(a, b, ni, L)),
+    'probabilidade final (percent.): %.2f' % (probability(a, b, nf, L))
+  )

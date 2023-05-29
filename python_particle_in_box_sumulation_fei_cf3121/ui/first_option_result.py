@@ -3,7 +3,7 @@ from tkinter import *
 from core.first import *
 
 
-def present_first_option_result(master, L, ni, nf, EouP):
+def present_first_option_result(master, L, ni, nf, EouP, a, b):
     main_window = Toplevel(master)
     main_window.title("Resultados")
 
@@ -12,7 +12,7 @@ def present_first_option_result(master, L, ni, nf, EouP):
     c_response = get_c(L, ni, nf, EouP)
     d_response = get_d(L, ni, nf, EouP)
     e_response = get_e(L, ni, nf, EouP)
-    f_response = 'resposta f'
+    f_response = get_f(L, ni, nf, EouP, a, b)
 
     Label(main_window, text=f"A) Função de onda quântica no SI dos dois níveis: {a_response}").pack()
     Label(main_window, text=f"B) Energia do nível quântico inicial (𝐸𝑖) e final (𝐸𝑓): {b_response}").pack()
